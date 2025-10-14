@@ -1,0 +1,16 @@
+digraph MealyMachine {
+  A [label="A"];
+  B [label="B"];
+  C [label="C"];
+  D [label="D"];
+  E [label="E"];
+  F [label="F"];
+
+  A -> B [label="0/x"];
+  A -> C [label="1/y"];
+  B -> C [label="0/z"];
+  B -> D [label="1/w"];
+  C -> A [label="0/x"];
+  C -> E [label="1/y"];
+  E -> F [label="0/z"];
+}

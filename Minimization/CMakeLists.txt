@@ -1,0 +1,9 @@
+add_executable(Minimization
+        ../MealyToMooreAndMooreToMealy/Mealy/CMealy.h
+        ../MealyToMooreAndMooreToMealy/Mealy/CMealy.cpp
+        ../MealyToMooreAndMooreToMealy/Moore/CMoore.h
+        ../MealyToMooreAndMooreToMealy/Moore/CMoore.cpp
+        Minimizer.cpp
+        Minimizer.h
+        main.cpp
+)
