@@ -1,0 +1,10 @@
+add_executable(
+        NKAtoDKA
+        CDKA/CDKA.h
+        CDKA/CDKA.cpp
+        CNKA/CNKA.cpp
+        CNKA/CNKA.h
+        NKAtoDKAConverter/NKAtoDKAConverter.cpp
+        NKAtoDKAConverter/NKAtoDKAConverter.h
+        main.cpp
+)
