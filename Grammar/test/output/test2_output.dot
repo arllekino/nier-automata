@@ -1,0 +1,28 @@
+digraph DFA {
+  start -> {S0};
+  {A0} [shape=circle];
+  {B0} [shape=circle];
+  {C0,F} [shape=circle];
+  {C0} [shape=circle];
+  {S0} [shape=circle];
+  {?0} [shape=circle];
+
+  {S0} -> {A0} [label="a"];
+  {S0} -> {B0} [label="b"];
+  {S0} -> - [label="?"];
+  {A0} -> {C0,F} [label="a"];
+  {A0} -> {A0} [label="b"];
+  {A0} -> - [label="?"];
+  {B0} -> {B0} [label="a"];
+  {B0} -> {C0,F} [label="b"];
+  {B0} -> - [label="?"];
+  {C0,F} -> {C0} [label="a"];
+  {C0,F} -> {C0} [label="b"];
+  {C0,F} -> {?0} [label="?"];
+  {C0} -> {C0} [label="a"];
+  {C0} -> {C0} [label="b"];
+  {C0} -> {?0} [label="?"];
+  {?0} -> - [label="a"];
+  {?0} -> - [label="b"];
+  {?0} -> - [label="?"];
+}

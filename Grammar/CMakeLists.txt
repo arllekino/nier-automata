@@ -1,0 +1,11 @@
+add_executable(grammar
+        main.cpp
+        ../NKAtoDKA/CNKA/CNKA.h
+        ../NKAtoDKA/CNKA/CNKA.cpp
+        ../NKAtoDKA/CDKA/CDKA.h
+        ../NKAtoDKA/CDKA/CDKA.cpp
+        ../NKAtoDKA/NKAtoDKAConverter/NKAtoDKAConverter.h
+        ../NKAtoDKA/NKAtoDKAConverter/NKAtoDKAConverter.cpp
+        GrammarRule/GrammarRule.h
+        GrammarToNFAConverter/GrammarToNFAConverter.h
+)

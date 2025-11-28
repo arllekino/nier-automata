@@ -1,0 +1,13 @@
+digraph DFA {
+  start -> {S0};
+  {A0,F} [shape=circle];
+  {A0} [shape=circle];
+  {S0} [shape=circle];
+
+  {S0} -> {A0,F} [label="a"];
+  {S0} -> {S0} [label="b"];
+  {A0,F} -> {A0,F} [label="a"];
+  {A0,F} -> {A0} [label="b"];
+  {A0} -> {A0,F} [label="a"];
+  {A0} -> {A0} [label="b"];
+}

@@ -1,0 +1,6 @@
+(ab*a|b)*
+(a*|b*)*
+(a*|b*|b)*b
+(a*c*a*)*b(a*b*c*)
+(r*|su*t)*su*
+ab*((a|b*)df(b|a*))((a|b*)df(b|a*))*
